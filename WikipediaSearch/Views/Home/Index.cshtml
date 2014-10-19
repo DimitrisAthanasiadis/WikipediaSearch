@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Search";
+}
+
+
+
+<div class="container well">
+    <div class="row">
+        <div class="col-sm-3">All documents indexed: </div>
+        <div class="col-sm-9">@ViewBag.TotalDocs
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">Found: </div>
+        <div class="col-sm-9" id="total">-</div>
+    </div>  
+    <div class="row">
+        <div class="col-sm-3" >Elapsed: </div>
+        <div class="col-sm-9" id="elapsed">-</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">
+            <input type="text" class="form-control" id="searchPhrase" placeholder="Search phrase">
+        </div>
+        <div class="col-sm-1"><button id="search" type="submit" class="btn btn-success">Search</button></div>
+        <div class="col-sm-1"><img id="loading" src="~/Content/ajax-loader.gif" style="display: none" /></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="http://lucene.apache.org/core/3_0_0/queryparsersyntax.html">http://lucene.apache.org/core/3_0_0/queryparsersyntax.html</a>
+        </div>
+    </div>
+  
+</div>
+
+<div id="errorMessage" class="alert alert-danger" style="display:none" role="alert">
+    <div>There was an error while processing your request</div>
+</div>
+
+<ul class="list-group"></ul>
+
+@section scripts{
+    <script id="entryTemplate" type="text/html">
+        <li class="list-group-item"><a href="http://en.wikipedia.org/wiki/{1}">{1}</a><span class="badge" title="score">{2}</span></li>
+    </script>
+
+    <script>
+        $(function () {
+            var $loading = $('#loading'),
+                $errorMessage = $('#errorMessage'),
+                template = $('#entryTemplate').html();
+
+            var searchFn = function () {
+                var startedAt = new Date();
+                $loading.show();
+                $errorMessage.hide();
+
+                var data = $('#searchPhrase').val();
+                $.get('@Url.Action("Search", "Home")', { data: data }).success(function (data) {
+                    $loading.hide();
+                    var finishedAt = new Date(),
+                        elapsed = finishedAt.valueOf() - startedAt.valueOf();
+                    $("#elapsed").text(elapsed);
+                    $('ul.list-group').empty();
+                    $('#total').text(data.length);
+                    $.each(data, function () {
+                        var entry = template.replace('{1}', this.Title).replace('{1}', this.Title).replace('{2}', this.Score);
+                        $(entry).appendTo('ul.list-group');
+                    })
+                }).error(function (a,b,c) {
+                    $errorMessage.show();
+                    $loading.hide();
+                });
+            };
+
+            $(document).on('mouseenter mouseleave', 'li', function () { $(this).toggleClass('active'); });
+            //$('#searchPhrase').on('change keyup', searchFn);
+            $('button').on('click', searchFn);
+        });
+    </script>
+}

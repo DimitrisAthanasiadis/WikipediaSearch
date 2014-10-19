@@ -1,0 +1,17 @@
+c:\users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\ImportWikiDump.exe
+c:\users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\ImportWikiDump.pdb
+c:\users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\obj\Debug\ImportWikiDump.csprojResolveAssemblyReference.cache
+c:\users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\obj\Debug\ImportWikiDump.exe
+c:\users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\obj\Debug\ImportWikiDump.pdb
+c:\users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\Newtonsoft.Json.dll
+c:\users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nawro_000\Documents\Visual Studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\MongoDB.Bson.dll
+C:\Users\nawro_000\Documents\Visual Studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\MongoDB.Driver.dll
+C:\Users\nawro_000\Documents\Visual Studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\MongoDB.Bson.xml
+C:\Users\nawro_000\Documents\Visual Studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\MongoDB.Driver.xml
+C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\Lucene.Net.dll
+C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\Lucene.Net.pdb
+C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\Lucene.Net.xml
+C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\WikipediaSearchService.dll
+C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\ImportWikiDump\bin\Debug\WikipediaSearchService.pdb
