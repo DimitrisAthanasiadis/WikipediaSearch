@@ -1,9 +1,0 @@
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\bin\Debug\WikipediaSearchService.dll
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\bin\Debug\WikipediaSearchService.pdb
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\bin\Debug\ICSharpCode.SharpZipLib.dll
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\bin\Debug\Lucene.Net.dll
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\bin\Debug\Lucene.Net.pdb
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\bin\Debug\Lucene.Net.xml
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\obj\Debug\WikipediaSearchService.csprojResolveAssemblyReference.cache
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\obj\Debug\WikipediaSearchService.dll
-C:\Users\nawro_000\documents\visual studio 2013\Projects\ImportWikiDump\WikipediaSearchService\obj\Debug\WikipediaSearchService.pdb
